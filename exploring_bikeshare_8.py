@@ -155,12 +155,12 @@ def user_stats(df):
     start_time = time.time()
 
     # Displays counts of user types
-    user_types = df['User Type'].value_counts()
+    user_types = df['User Type'].value_counts().to_frame()
     print('Number of user types:', user_types)
 
     # Displays counts of gender
     if 'Gender' in df.columns:
-        gender_count = df['Gender'].value_counts()
+        gender_count = df['Gender'].value_counts().to_frame()
         print('Number of users of each gender (if applicable):', gender_count)
     else:
         print('Sorry, no data available for selected city')
