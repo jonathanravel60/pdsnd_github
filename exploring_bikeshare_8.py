@@ -166,6 +166,7 @@ def user_stats(df):
         print('Sorry, no data available for selected city')
 
     # Displays earliest, most recent, and most common year of birth
+    # Data includes birthyear prior to 1900; to investigate and possibly filter.
     if 'Birth Year' in df.columns:
         oldest = df['Birth Year'].min()
         youngest = df['Birth Year'].max()
