@@ -7,6 +7,9 @@ Exploring Bikeshare Data from Motivate
 ### Description
 Interactive Python code that allows user to select bikeshare data provided by Motivate from 1 of 3 cities and then obtain summary statistics on month and day of bike usage.
 
+### Notes
+Gender and birth year data not available in Washington.
+
 ### Files used
 exploring_bikeshare_8.py
 chicago.csv
