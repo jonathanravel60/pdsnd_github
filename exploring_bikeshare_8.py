@@ -159,6 +159,7 @@ def user_stats(df):
     print('Number of user types:', user_types)
 
     # Displays counts of gender
+    # gender data not available for washington
     if 'Gender' in df.columns:
         gender_count = df['Gender'].value_counts()
         print('Number of users of each gender (if applicable):', gender_count)
@@ -166,6 +167,7 @@ def user_stats(df):
         print('Sorry, no data available for selected city')
 
     # Displays earliest, most recent, and most common year of birth
+    # birth year data not available for washington
     if 'Birth Year' in df.columns:
         oldest = df['Birth Year'].min()
         youngest = df['Birth Year'].max()
