@@ -1,5 +1,5 @@
 ### Date created
-2021/02/21 Created repo and README for python code from Section 4 of Programming for Data Science with Python Nanodegree program.
+2021/02/21 Created repo and updated README for python code from Section 4 of Programming for Data Science with Python Nanodegree program.
 
 ### Project Title
 Exploring Bikeshare Data from Motivate
